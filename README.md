@@ -49,4 +49,5 @@ This is a program with automated tests: 5 tests for the API and 5 tests for the 
 ## Additional Information
 
 Feel free to contribute to this project by submitting pull requests or opening issues.
+
 Happy testing!
