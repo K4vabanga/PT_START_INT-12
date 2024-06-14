@@ -36,8 +36,8 @@ This is a program with automated tests: 5 tests for the API and 5 tests for the 
 1. Clone the project from the repository using `git clone https://github.com/K4vabanga/PT_START_INT-12.git`
 2. Install Allure
 3. Install all required libraries using `pip install requirements.txt`
-4. Run the test using `pytest --alluredir=/app/my_allure_reports main.py`
-5. Run the Allure report using `allure serve /app/my_allure_reports`
+4. Run the test using `pytest --alluredir=/path/to/allure_reports_dir main.py`
+5. Run the Allure report using `allure serve /path/to/allure_reports_dir`
 
 ### Second Option:
 1. Clone the project from the repository using `git clone https://github.com/K4vabanga/PT_START_INT-12.git`
