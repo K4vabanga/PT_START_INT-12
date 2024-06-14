@@ -18,17 +18,17 @@ This is a program with automated tests: 5 tests for the API and 5 tests for the 
 ## Test List
 
 - API Tests:
-  - test_api_register_new_user - A test that checks the functionality of the new user registration function via the API
-  - test_api_search_product - A test that checks the functionality of the product search function via the API
-  - test_api_get_user_account_detail_by_email - A test that checks the functionality of the function for obtaining information about the user by specifying an email via the API
-  - test_api_update_user_account - A test that checks the functionality of updating user information via the API
-  - test_api_delete_user_account - A test that checks the functionality of the user account deletion function via the API
+  - `test_api_register_new_user` - A test that checks the functionality of the new user registration function via the API
+  - `test_api_search_product` - A test that checks the functionality of the product search function via the API
+  - `test_api_get_user_account_detail_by_email` - A test that checks the functionality of the function for obtaining information about the user by specifying an email via the API
+  - `test_api_update_user_account` - A test that checks the functionality of updating user information via the API
+  - `test_api_delete_user_account` - A test that checks the functionality of the user account deletion function via the API
 - UI Tests:
-  - test_ui_register_new_user - A test that checks the functionality of the new user registration function via the UI
-  - test_ui_add_products_in_cart - A test that checks the functionality of the function of adding products to the cart via the UI
-  - test_ui_search_product - A test that checks the functionality of the product search function via the UI
-  - test_ui_contact_us_form - A test that checks the functionality of the function of sending a feedback form via the UI
-  - test_ui_add_review_on_product - A test that checks the functionality of the function of sending a review for a product through the UI
+  - `test_ui_register_new_user` - A test that checks the functionality of the new user registration function via the UI
+  - `test_ui_add_products_in_cart` - A test that checks the functionality of the function of adding products to the cart via the UI
+  - `test_ui_search_product` - A test that checks the functionality of the product search function via the UI
+  - `test_ui_contact_us_form` - A test that checks the functionality of the function of sending a feedback form via the UI
+  - `test_ui_add_review_on_product` - A test that checks the functionality of the function of sending a review for a product through the UI
  
 ## Installation
 
