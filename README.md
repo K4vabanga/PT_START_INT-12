@@ -43,8 +43,8 @@ This is a program with automated tests: 5 tests for the API and 5 tests for the 
 1. Clone the project from the repository using `git clone https://github.com/K4vabanga/PT_START_INT-12.git`
 2. Install Docker
 3. Create a Docker image using `docker build /path/to/repository`
-4. Run the Docker container using `docker run /path/to/repository`
-5. The report can be viewed at `http://localhost:5555/index.php`
+4. Run the Docker container using `docker run -p 5555:5555 <image_name>`
+5. The report can be viewed at `http://localhost:5555`
 
 ## Additional Information
 
