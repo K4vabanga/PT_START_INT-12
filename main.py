@@ -92,7 +92,7 @@ class TestClassUI:
     @pytest.fixture(scope="class")
     def resource_setup(self):
         with sync_playwright() as p:
-            browser = p.chromium.launch(headless=False)
+            browser = p.chromium.launch(headless=True)
             page = browser.new_page()
             yield page
             return
@@ -215,6 +215,7 @@ class TestClassUI:
             page.fill("#message", self.myjson['text'])
             page.set_input_files("#contact-us-form > div:nth-child(6) > input","README.MD")
             page.on("dialog", lambda dialog: dialog.accept())
+            time.sleep(1)
             page.click('#contact-us-form > div:nth-child(7) > input')
             assert page.text_content("#contact-page > div.row > div.col-sm-8 > div > div.status.alert.alert-success") == "Success! Your details have been submitted successfully.", "The feedback form could not be sent!"
 
